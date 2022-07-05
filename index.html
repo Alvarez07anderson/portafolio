@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="prt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+
+
+    <title>Portafolio</title>
+
+</head>
+
+<body>
+
+    <header class="cabecalhoPrincipal">
+
+        <section class="sectionCabecalho">
+
+            <h1 class="nome-principal"> Anderson Alvarez </h1>
+
+            <nav class="menu-principal">
+
+                <ul class="listaDoCabecalho">
+                    <li> <a class="linksDoMenu" href="#sobreMim"> Sobre Mim </a></li>
+                    <li> <a class="linksDoMenu" href="#Skills"> Skills </a></li>
+                    <li> <a class="linksDoMenu" href="#Hobbies"> Hobbies </a></li>
+                    <li> <a class="linksDoMenu" href="#Formacao"> Formacão </a></li>
+                    <li> <a class="linksDoMenu" href="#Projetos"> Projetos </a></li>
+                    <li> <a class="linksDoMenu" href="#Contato"> Contato </a></li>
+                </ul>
+
+            </nav>
+
+        </section>
+
+    </header>
+
+    <main class="mainPrincipal">
+
+        <header class="headerDoMainPrincipal">
+
+            <section class="descripcao-principal">
+
+                <div class="blocoDoTexto">
+
+                    <h2 class="texto-principal"> Olá, eu sou Anderson Alvarez e construo páginas web </h2>
+
+                    <p class="paragrafoDoTextoPrincipal"> Eu sou bachiller e atualmente estou participando no projeto
+                        Oracle ONE na Alura. </p>
+
+                        <ul class="lista-redes">
+
+                            <li><a href="https://github.com/Alvarez07anderson" target="_blank"> <button class="elementoLista"> GitHub➪ </button></a></li>
+                            <li> <a href="https://www.instagram.com/anderson_alvarez1/" target="_blank"> <button class="elementoLista"> Instagram➪ </button></a></li>
+                            <li> <button onclick="generatePDF()" class="elementoLista"> PDF➪ </button> </li>
+                        
+                        </ul>
+
+                </div>
+
+                <div class="blocoDaImagem">
+
+                    <img id="imagemPrincipal" src="./imagems/foto1.jpg.jfif">
+
+                </div>
+
+                <div class="blocoDosLinks">
+
+                </div>
+
+            </section>
+
+        </header>
+
+        <main class="conteudo">
+
+            <section id="sobreMim">
+
+                <h3 class="tituloSobreMim"> Sobre Mim </h3>
+
+                <p class="textoSobreMim"> Olá! tudo bem?, eu sou Venezuelano e tenho 20 anos, sou um apaxionado pela
+                    tecnologia, eu sou muito curioso e gosto de aprender coisas novas. Atualmente estou-me esforçando
+                    para aprender programão, minha aspiracão é ser um desenvolvedor FullStack. <br><br>
+                    Eu gosto muito de viajar e conhecer novas culturas, eu gosto muito dos esportes e a natureza</p>
+
+            </section>
+
+            <section id="Skills">
+
+                <h3 class="tituloDasSecoes"> Skills </h3>
+
+                <div class="contenedorGrid">
+
+                    <div class="logoHtml"><img id="imagemHtml" src="/imagems/logo-html.png"></div>
+
+                    <div class="logoCss"><img id="imagemCss" src="/imagems/logo-css.png"></div>
+
+                    <div class="logoJs"><img id="imagemJavaScript" src="/imagems/logo-java.png"></div>
+
+                </div>
+
+            </section>
+
+            <section id="Hobbies">
+
+                <h3 class="tituloDasSecoes"> Hobbies </h3>
+
+                <div class="contenedorDosHobbies">
+
+                    <div class="esportes"><img id="imagemEsportes" src="/imagems/mountain-bike.jpg">
+                        <p class="nomesDasImagems">Esportes</p>
+                    </div>
+
+                    <div class="viagems"><img id="imagemViagems" src="/imagems/idiomas.jpg">
+                        <p class="nomesDasImagems">Viajar e Conhecer</p>
+                    </div>
+
+                    <div class="livros"><img id="imagemLivros" src="/imagems/libros.jpg">
+                        <p class="nomesDasImagems">Ler</p>
+                    </div>
+
+                    <div class="musica"><img id="imagemMusica" src="/imagems/audifonos.png">
+                        <p class="nomesDasImagems">Ouvir Musica</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="Formacao">
+
+                <h3 class="tituloDasSecoes"> Formacao academica </h3>
+
+                <div class="contenedorDosLogos">
+
+                    <div class="contenedorDasFormacoes">
+
+                        <div class="logoAlura"><img id="imagemAlura" src="/imagems/logo-alura.jpg"></div>
+
+                        <div class="logoLaSalle"><img id="imagemSalle" src="/imagems/logo-la-salle.png"></div>
+
+                        <div class="textoDoAlura">
+
+                            <h4> Alura ONE </h4>
+
+                            <p> 2022 - Alura </p>
+
+                        </div>
+
+                        <div class="textoDaLaSalle">
+
+                            <h4> Escola Secundária La Salle Merida </h4>
+
+                            <p> 2015/2019 - La Salle </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="Projetos">
+
+                <h3 class="tituloDasSecoes"> Formacao Profissional </h3>
+
+                <section class="section-jogo-forca">
+
+                    <div class="bloco-section-jogo">
+
+                        <img id="imagemJogoForca" src="/imagems/forca-jog.jpg">
+
+                        <div class="bloco-texto-formacoes">
+
+                            <h4 class="titulos-formacoes">Jogo da Forca</h4>
+
+                            <p> Challenge Alura Jogo </p>
+
+                            <div class="bloco-dos-botoes">
+
+                                <a href="https://github.com/Alvarez07anderson/jogo-da-forca" target="_blank"><button class="botao-repo"> Repositorio </button></a>
+
+                               <a href="https://alvarez07anderson.github.io/jogo-da-forca/" target="_blank"> <button id="botao-jogo"> Ver Demo </button> </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="section-desencriptador">
+
+                    <div class="bloco-section-jogo">
+
+                        <div class="bloco-texto-formacoes">
+
+                            <h4 class="titulos-formacoes"> Desencriptador de texto </h4>
+
+                            <p> Challenge Alura Desencriptador </p>
+
+                            <div class="bloco-dos-botoes">
+
+                                <a href="https://github.com/Alvarez07anderson/Challenge1" target="_blank"><button class="botao-repo"> Repositorio </button></a>
+
+                                <a href="https://alvarez07anderson.github.io/Challenge1/" target="_blank"><button id="botao-desencriptador"> Ver Demo </button></a>
+
+                            </div>
+
+                        </div>
+
+                        <img id="desencriptador" src="/imagems/desencriptador.jpg">
+
+                    </div>
+
+                </section>
+
+            </section>
+
+            <section id="Contato">
+
+                <div class="bloco-contato">
+
+                    <div class="contenedor-imagem-telefone">
+
+                        <img id="imagem-telefone" src="/imagems/telefono-contato.jpg">
+
+                    </div>
+
+                    <div class="contenedor-formulario">
+
+                        <h3 id="titulo-contato"> Contato </h3>
+
+                        <p> Quer entrar em contato comigo? <br><br>
+                            Preencha o formulario ao lado e entrarei em contato o mais rapido possivel. </p>
+
+                        <form id="formulario">
+
+                            <input class="inputs-do-formulario" id="input-nome" name="nome" type="text"
+                                placeholder="Nome" required="Requerido">
+
+                            <input class="inputs-do-formulario" id="input-email" name="email" type="email"
+                                placeholder="Email" required="Requerido">
+
+                            <input class="inputs-do-formulario" id="input-assunto" name="assunto" type="text"
+                                placeholder="Assunto" required="Requerido">
+
+                            <textarea class="inputs-do-formulario" id="input-mensagem"  name="mensagem" type="text" placeholder="Mensagem"></textarea>
+
+                            <button id="botao-enviar"> Enviar Mensagem </button>
+
+                        </form>
+                        <a href="mailto:alvarez07anderson@gmail.com" id="acao-enviar">mail</a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </main>
+
+    <footer class="footer-da-pagina">
+
+        <p> Desenvolvido por Anderson Alvarez. </p>
+        <p> 2022 </p>
+
+    </footer>
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="/js/index.js"></script>
+
+</body>
+
+</html>

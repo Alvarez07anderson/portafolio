@@ -1,0 +1,543 @@
+@media screen and (min-width: 390px) {
+    .sectionCabecalho {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nomePrincipal{
+        margin: 0;
+    }
+
+    .listaDoCabecalho {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .descripcao-principal {
+        justify-content: space-between;
+        width: 390px;
+    }
+
+    .blocoDoTexto {
+        width: 230px;
+        margin: 0;
+    }
+
+    .blocoDaImagem {
+        width: 50%;
+    }
+
+    .texto-principal {
+        font-size: 2em;
+    }
+
+    #imagemPrincipal {
+        width: 150px;
+        height: 150px;
+    }
+
+    .textoSobreMim {
+        width: 390px;
+        margin: 0;
+    }
+
+    .contenedorGrid {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100% 100%;
+        grid-gap: 0px;
+    }
+
+    .contenedorDosHobbies {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
+    #imagemAlura, #imagemSalle {
+        width: 50%;
+    }
+
+    #imagem-telefone {
+        width: 80%;
+    }
+
+    .bloco-contato {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .sectionCabecalho {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .nomePrincipal{
+        margin: 0;
+    }
+
+    .listaDoCabecalho {
+        width: 500px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .descripcao-principal {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .blocoDoTexto {
+        width: 50%;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .blocoDaImagem {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto-principal {
+        font-size: 2em;
+    }
+
+    #imagemPrincipal {
+        width: 220px;
+        height: 220px;
+    }
+
+    #sobreMim {
+        padding-top: 20px;
+    }
+
+    .textoSobreMim {
+        width: 50%;
+        margin-left: 20px;
+    }
+
+    .contenedorGrid {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        grid-gap: 10px;
+        height: auto;
+    }
+
+    .logoHtml, .logoCss, .logoJs {
+        height: 174px;
+    }
+
+    .contenedorDosHobbies {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        height: 400px;
+    }
+
+    #imagemAlura, #imagemSalle {
+        width: 50%;
+    }
+
+    .contenedor-imagem-telefone {
+        justify-content: center;
+    }
+
+    #imagem-telefone {
+        width: 300px;
+        height: 300px;
+    }
+
+    #contato {
+        height: 900px;
+    }
+
+    .footer-da-pagina {
+        height: 10px;
+    }
+
+    .bloco-contato {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #formulario {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputs-do-formulario {
+        height: 2em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #imagemPrincipal {
+        width: 300px;
+        height: 300px;
+    }
+
+    .textoSobreMim {
+        width: 50%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .contenedorGrid {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-template-rows: 100%;
+        grid-gap: 10px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .sectionCabecalho {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .cabecalhoPrincipal {
+        background-color: #F0F8FF;
+    }
+    
+    .nome-principal {
+        padding: 20px;
+        margin: 0 20px;
+        color: #464646;
+    }
+    
+    .listaDoCabecalho {
+        display: flex;
+        width: 600px;
+        justify-content: space-around;
+        padding: 20px;
+        font-weight: 600;
+        color: #464646;
+    }
+    
+    .linksDoMenu {
+        text-decoration: none;
+        color: #464646;
+    }
+    
+    .descripcao-principal {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .blocoDoTexto {
+        width: 750px;
+        margin-top: 50px;
+        margin-left: 20px;
+    
+    }
+    
+    .texto-principal {
+        font-weight: 600;
+        font-size: 3rem;
+        color: #464646;
+    }
+    
+    .paragrafoDoTextoPrincipal {
+        margin-top: 1.5rem;
+        line-height: 1.1rem;
+        color: #464646;
+    }
+    
+    .blocoDaImagem {
+        display: flex;
+        align-items: center;
+        width: 368px;
+        height: 368px;
+    }
+    
+    #imagemPrincipal {
+        border-radius: 100%;
+        width: 300px;
+        height: 300px;
+    }
+    
+    #sobreMim {
+        display: flex;
+        flex-direction: column;
+        background-color: #F0F8FF;
+        width: 100%;
+        height: 250px;
+        color: #464646;
+    }
+    
+    .tituloSobreMim {
+        margin-left: 30px;
+        font-weight: 600;
+        font-size: 2rem;
+        color: #464646;
+    }
+    
+    .textoSobreMim {
+        margin-top: 25px;
+        margin-left: 30px;
+        width: 500px;
+    }
+    
+    #Skills {
+        width: 100%;
+        height: auto;
+    }
+    
+    .tituloDasSecoes {
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #464646;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .contenedorGrid {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-template-rows: 100%;
+        width: 100%;
+        height: 200px;
+        margin: 20px 0;
+    }
+    
+    .logoHtml, .logoJs, .logoCss {
+        display: flex;
+        justify-content: space-around;
+        height: auto;
+    }
+    
+    #imagemHtml, #imagemCss, #imagemJavaScript {
+        width: 176px;
+        height: 174px;
+        background-color: transparent;
+    }
+    
+    #Hobbies {
+        width: 100%;
+        height: auto;
+    }
+    
+    .contenedorDosHobbies {
+        display: grid;
+        grid-gap: 0.5rem;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 100%;
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+        padding-bottom: 15px;
+    }
+    
+    .esportes, .viagems, .livros, .musica {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 174px;
+        text-align: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    
+    #imagemEsportes, #imagemViagems, #imagemLivros, #imagemMusica {
+        width: 176px;
+        height: 174px;
+        background-color: transparent;
+    }
+    
+    #Formacao {
+        width: 100%;
+        height: 400px;
+        background-color: #F0F8FF;
+    }
+    
+    .contenedorDosLogos {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .contenedorDasFormacoes {
+        display: grid;
+        justify-content: space-around;
+        grid-column-gap: 3rem;
+        grid-row-gap: 1rem;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 80% 20%;
+        width: 80%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    
+    .logoAlura, .logoLaSalle {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 160px;
+    
+    }
+
+    #imagemAlura {
+        height: 160px;
+    }
+    
+    .textoDoAlura, .textoDaLaSalle {
+        line-height: 1.5rem;
+    }
+    
+    .section-jogo-forca, .section-desencriptador {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .bloco-section-jogo {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+    }
+    
+    #imagemJogoForca, #desencriptador {
+        width: 60%;
+        height: 500px;
+    }
+    
+    .section-desencriptador {
+        margin-top: 30px;
+    }
+    
+    .bloco-texto-formacoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5rem;
+        width: 40%;
+    }
+    
+    .titulos-formacoes {
+        color: #464646;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .bloco-dos-botoes {
+        margin: 15px 0;
+    }
+    
+    #botao-desencriptador, #botao-repo, #botao-jogo {
+        width: 100px;
+    }
+    
+    .botao-repo {
+        height: 40px;
+        background-color: white;
+        border-color: #2A7AE4;
+        color: #2A7AE4;
+        border-radius: 10px;
+    }
+    
+    #botao-jogo {
+        height: 40px;
+    }
+    
+    #botao-desencriptador, #botao-jogo {
+        height: 40px;
+        background-color: #2A7AE4;
+        border-color: transparent;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    #Contato {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+        background-color: #F0F8FF;
+        width: 100%;
+    }
+    
+    .bloco-contato {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        padding: 5% 0;
+    }
+    
+    .contenedor-imagem-telefone {
+        display: flex;
+        align-items: center;
+    }
+    
+    #imagem-telefone {
+        width: 464px;
+        height: 593px;
+        border-radius: 10px;
+    }
+    
+    .contenedor-formulario {
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        margin-left: 4rem;
+    }
+    
+    
+    #titulo-contato {
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #464646;
+        padding: 20px 0;
+    }
+    
+    #formulario {
+        margin-top: 2.5rem;
+        display: grid;
+        grid-gap: 0;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+    }
+    
+    .inputs-do-formulario {
+        border-color: transparent;
+        border-radius: 5px;
+    }
+    
+    #botao-enviar {
+        width: 150px;
+        height: 50px;
+        background-color: #2A7AE4;
+        border-color: transparent;
+        border-radius: 5px;
+        color: white;
+    }
+    
+    .footer-da-pagina {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        line-height: 1.5rem;
+        color: #464646;
+    }
+     
+    #input-mensagem {
+        resize: none;
+        width: 100%;
+        height: 100px;
+    }
+    
+    #botao-enviar {
+        margin-top: 4em;
+    }
+    
+    #acao-enviar {
+        opacity: 0;
+        display:none;
+    }
+}
