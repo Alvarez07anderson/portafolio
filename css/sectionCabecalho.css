@@ -79,5 +79,6 @@
         justify-content: space-between;
         box-sizing: border-box;
         width: calc(100% - 10%);
+        margin: auto;
     }
 }
