@@ -1,0 +1,90 @@
+.section-jogo-forca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1.2em 0;
+    line-height: 1.2em;
+}
+
+#imagemJogoForca {
+    width: 337px;
+    height: 337px;
+}
+
+.bloco-dos-botoes {
+    margin: 1em 0;
+}
+
+#botao-jogo, #botao-desencriptador {
+    margin-left: 1em;
+}
+
+.bloco-section-desencriptador {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    margin: 1.2em 0;
+    line-height: 1.2em;
+}
+
+#desencriptador {
+    width: 337px;
+    height: 337px;
+}
+
+@media screen and (min-width: 768px) {
+    #imagemJogoForca, #desencriptador {
+        width: 690px;
+        height: 600px;
+    }
+
+    #projetos {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bloco-section-jogo {
+        width: calc(100% - 10%);
+        display: flex;
+    }
+
+    .section-jogo-forca {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    #imagemJogoForca {
+        width: 70%;
+        height: auto;
+    }
+
+    .bloco-texto-formacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .section-desencriptador {
+        display: flex;
+    }
+
+    .bloco-section-desencriptador {
+        flex-direction: row;
+        width: 100%
+    }
+
+    #desencriptador {
+        width: 65%;
+        height: auto;
+    }
+
+    #Projetos {
+        width: calc(100% - 10%);
+    }
+}

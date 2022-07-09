@@ -1,0 +1,29 @@
+#sobreMim {
+    background-color: var(--section-fundo-azul);
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.tituloSobreMim {
+    font-weight: var(--peso-fonte);
+    font-size: var(--tamanho-fonte-titulos);
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .tituloSobreMim {
+        text-align: start;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #sobreMim {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    #sobreMim {
+        width: calc(100% - 10%);
+    }
+}

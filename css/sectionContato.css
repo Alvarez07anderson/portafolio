@@ -1,0 +1,100 @@
+#Contato {
+    background-color: var(--section-fundo-azul);
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.contenedor-imagem-telefone {
+    display: none;
+}
+
+#titulo-contato {
+    font-size: var(--tamanho-fonte-titulos);
+    font-weight: var(--peso-fonte);
+    padding: var(--padding-titulos);
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em 0;
+}
+
+.inputs-do-formulario {
+    margin: 1em 0;
+    border-radius: 5px;
+    border-color: var(--cor-dos-bordes-botoes);
+    height: 2.5em;
+}
+
+#input-mensagem {
+    resize: none;
+    height: 4em;
+}
+
+#botao-enviar {
+    height: 2.5em;
+}
+
+#acao-enviar {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 17px;
+    }
+    #Contato {
+        font-size: 1.5em;
+    }
+
+    .inputs-do-formulario {
+        height: 50px;
+        font-size: 1.1em;
+    }
+
+    #input-mensagem {
+        height: 100px;
+    }
+
+    #botao-enviar {
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    #Contato {
+        width: calc(100% - 10%);
+        display: flex;
+    }
+
+    .contenedor-imagem-telefone {
+        display: block;
+        width: 47%;
+        height: 725px;
+    }
+
+    #imagem-telefone {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contenedor-formulario {
+        width: 50%;
+    }
+
+    .bloco-contato {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .inputs-do-formulario {
+        margin: .2em 0;
+        font-size: .7em;
+    }
+
+    #botao-enviar {
+        margin-top: 2rem ;
+    }
+}

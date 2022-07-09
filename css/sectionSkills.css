@@ -1,0 +1,27 @@
+.contenedorGrid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#imagemHtml, #imagemCss, #imagemJavaScript {
+    width: 120px;
+    height: 120px;
+}
+
+@media screen and (min-width: 768px) {
+    #imagemHtml, #imagemCss, #imagemJavaScript {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #imagemHtml, #imagemCss, #imagemJavaScript {
+        width: 300px;
+        height: 300px;
+    }
+
+    #Skills {
+        width: calc(100% - 10%);
+    }
+}

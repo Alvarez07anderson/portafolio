@@ -8,8 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sectionCabecalho.css">
+    <link rel="stylesheet" href="./css/sectionDescripcaoPrincipal.css">
+    <link rel="stylesheet" href="./css/sectionSobreMim.css">
+    <link rel="stylesheet" href="./css/sectionSkills.css">
+    <link rel="stylesheet" href="./css/sectionHobbies.css">
+    <link rel="stylesheet" href="./css/sectionFormacao.css">
+    <link rel="stylesheet" href="./css/sectionProjetos.css">
+    <link rel="stylesheet" href="./css/sectionContato.css">
     <link rel="stylesheet" href="./css/responsivo.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
     <title>Portafolio</title>
 
@@ -17,11 +27,23 @@
 
 <body>
 
-    <header class="cabecalhoPrincipal">
+    <header class="cabecalhoPrincipal container">
 
-        <section class="sectionCabecalho">
+        <section id="sectionCabecalho">
 
-            <h1 class="nome-principal"> Anderson Alvarez </h1>
+            <div class="contenedor-da-imagem-e-nome">
+
+                <img id="imagem-a" src="/imagems/imagem-a.png">
+
+                <h1 class="nome-principal titulos"> Anderson Alvarez </h1>
+
+            </div>
+
+            <div class="contenedor-email">
+
+                <p class="email-cabecalho">Alvarez07anderson@gmail.com</p>
+
+            </div>
 
             <nav class="menu-principal">
 
@@ -44,7 +66,7 @@
 
         <header class="headerDoMainPrincipal">
 
-            <section class="descripcao-principal">
+            <section id="sectionDescripcaoPrincipal" class="container">
 
                 <div class="blocoDoTexto">
 
@@ -55,9 +77,25 @@
 
                         <ul class="lista-redes">
 
-                            <li><a href="https://github.com/Alvarez07anderson" target="_blank"> <button class="elementoLista"> GitHub➪ </button></a></li>
-                            <li> <a href="https://www.instagram.com/anderson_alvarez1/" target="_blank"> <button class="elementoLista"> Instagram➪ </button></a></li>
-                            <li> <button onclick="generatePDF()" class="elementoLista"> PDF➪ </button> </li>
+                            <li>
+                                <a href="https://github.com/Alvarez07anderson" target="_blank">
+
+                                    <button class="botao-azul elementos-da-lista-de-redes"> GitHub➪ </button>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.instagram.com/anderson_alvarez1/" target="_blank">
+
+                                    <button class="botao-azul elementos-da-lista-de-redes"> Instagram➪ </button>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <button onclick="generatePDF()" class="botao-azul elementos-da-lista-de-redes"> PDF➪ </button> 
+                            </li>
                         
                         </ul>
 
@@ -69,17 +107,13 @@
 
                 </div>
 
-                <div class="blocoDosLinks">
-
-                </div>
-
             </section>
 
         </header>
 
         <main class="conteudo">
 
-            <section id="sobreMim">
+            <section id="sobreMim" class="container">
 
                 <h3 class="tituloSobreMim"> Sobre Mim </h3>
 
@@ -90,7 +124,7 @@
 
             </section>
 
-            <section id="Skills">
+            <section id="Skills" class="container">
 
                 <h3 class="tituloDasSecoes"> Skills </h3>
 
@@ -106,7 +140,7 @@
 
             </section>
 
-            <section id="Hobbies">
+            <section id="Hobbies" class="container">
 
                 <h3 class="tituloDasSecoes"> Hobbies </h3>
 
@@ -132,7 +166,7 @@
 
             </section>
 
-            <section id="Formacao">
+            <section id="Formacao" class="container">
 
                 <h3 class="tituloDasSecoes"> Formacao academica </h3>
 
@@ -140,32 +174,36 @@
 
                     <div class="contenedorDasFormacoes">
 
-                        <div class="logoAlura"><img id="imagemAlura" src="./imagems/logo-alura.jpg"></div>
-
-                        <div class="logoLaSalle"><img id="imagemSalle" src="./imagems/logo-la-salle.png"></div>
-
-                        <div class="textoDoAlura">
+                        <div class="logoAlura">
+                            
+                            <img id="imagemAlura" src="./imagems/logo-alura.jpg">
 
                             <h4> Alura ONE </h4>
-
+    
                             <p> 2022 - Alura </p>
-
+    
                         </div>
 
-                        <div class="textoDaLaSalle">
+                        <div class="logoLaSalle">
+
+                            <img id="imagemSalle" src="./imagems/logo-la-salle.png">
 
                             <h4> Escola Secundária La Salle Merida </h4>
-
+    
                             <p> 2015/2019 - La Salle </p>
-
+                
                         </div>
+
+                        
+
+                        
 
                     </div>
                 </div>
 
             </section>
 
-            <section id="Projetos">
+            <section id="Projetos" class="container">
 
                 <h3 class="tituloDasSecoes"> Formacao Profissional </h3>
 
@@ -183,9 +221,17 @@
 
                             <div class="bloco-dos-botoes">
 
-                                <a href="https://github.com/Alvarez07anderson/jogo-da-forca" target="_blank"><button class="botao-repo"> Repositorio </button></a>
+                                <a href="https://github.com/Alvarez07anderson/jogo-da-forca" target="_blank">
 
-                               <a href="https://alvarez07anderson.github.io/jogo-da-forca/" target="_blank"> <button id="botao-jogo"> Ver Demo </button> </a>
+                                    <button class="botao-repo botao-bramco">Repositorio</button>
+
+                                </a>
+
+                                <a href="https://alvarez07anderson.github.io/jogo-da-forca/" target="_blank">
+
+                                    <button id="botao-jogo" class="botao-azul">Ver Demo</button>
+
+                                </a>
 
                             </div>
 
@@ -197,7 +243,7 @@
 
                 <section class="section-desencriptador">
 
-                    <div class="bloco-section-jogo">
+                    <div class="bloco-section-desencriptador">
 
                         <div class="bloco-texto-formacoes">
 
@@ -207,9 +253,17 @@
 
                             <div class="bloco-dos-botoes">
 
-                                <a href="https://github.com/Alvarez07anderson/Challenge1" target="_blank"><button class="botao-repo"> Repositorio </button></a>
+                                <a href="https://github.com/Alvarez07anderson/Challenge1" target="_blank">
 
-                                <a href="https://alvarez07anderson.github.io/Challenge1/" target="_blank"><button id="botao-desencriptador"> Ver Demo </button></a>
+                                    <button class="botao-repo botao-bramco"> Repositorio </button>
+
+                                </a>
+
+                                <a href="https://alvarez07anderson.github.io/Challenge1/" target="_blank">
+
+                                    <button id="botao-desencriptador" class="botao-azul"> Ver Demo </button>
+
+                                </a>
 
                             </div>
 
@@ -223,7 +277,7 @@
 
             </section>
 
-            <section id="Contato">
+            <section id="Contato" class="container">
 
                 <div class="bloco-contato">
 
@@ -253,7 +307,7 @@
 
                             <textarea class="inputs-do-formulario" id="input-mensagem"  name="mensagem" type="text" placeholder="Mensagem"></textarea>
 
-                            <button id="botao-enviar"> Enviar Mensagem </button>
+                            <button id="botao-enviar" class="botao-azul"> Enviar Mensagem </button>
 
                         </form>
                         <a href="mailto:alvarez07anderson@gmail.com" id="acao-enviar">mail</a>
@@ -268,7 +322,7 @@
 
     </main>
 
-    <footer class="footer-da-pagina">
+    <footer class="footer-da-pagina container">
 
         <p> Desenvolvido por Anderson Alvarez. </p>
         

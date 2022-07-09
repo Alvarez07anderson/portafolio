@@ -1,0 +1,52 @@
+#Formacao {
+    background-color: var(--section-fundo-azul);
+    padding: 1.5em 0;
+}
+
+.contenedorDosLogos {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2em;
+}
+
+.logoAlura, .logoLaSalle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+    line-height: 1.2em;
+}
+
+#imagemAlura {
+    width: 319px;
+}
+
+@media screen and (min-width: 768px) {
+    .contenedorDasFormacoes {
+        display: flex;
+        font-size: 1.2em;
+        
+    }
+
+    .logoAlura, .logoLaSalle {
+        width: 50%;
+        line-height: 1.2em;
+    }
+
+    #imagemSalle, #imagemAlura {
+        width: 320px;
+        height: 220px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    #imagemSalle, #imagemAlura {
+        width: 400px;
+        height: 250px;
+    }
+
+    #Formacao {
+        width: 100%;
+    }
+}
